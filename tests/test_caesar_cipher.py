@@ -21,8 +21,8 @@ def test_encryption_can_handle_upper_and_lower_case_letters():
     assert actual == expected
 
 def test_encryption_should_allow_non_alpha_characters_but_ignore_them_including_white_space():
-    actual = encrypt("WOND biz !@#$%^^ Dag", 2)
-    expected = "YQPF dkb !@#$%^^ Fci"
+    actual = encrypt("WOND biz &^*%$# Dag", 2)
+    expected = "YQPF dkb &^*%$# Fci"
     assert actual == expected
 
 
